@@ -842,15 +842,15 @@ a {
 	color: var(--accent);
 }
 
-.botTagRegular-2HEhHi {
-	border-radius: 0;
-	background: var(--accent);
-}
-
-.botTagInvert-18-95s {
-	border-radius: 0;
-	color: var(--accent) !important;
-}
+/*.botTagRegular-2HEhHi {*/
+/*	border-radius: 0;*/
+/*	background: var(--accent);*/
+/*}*/
+/**/
+/*.botTagInvert-18-95s {*/
+/*	border-radius: 0;*/
+/*	color: var(--accent) !important;*/
+/*}*/
 
 .chat-3bRxxu form .typing-2GQL18 {
 	background-color: var(--lv1) !important;
