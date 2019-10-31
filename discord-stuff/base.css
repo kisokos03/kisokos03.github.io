@@ -32,7 +32,7 @@
 
 .appMount-3lHmkl {
 	--theme-name: 'Midnight';
-	--theme-long-name: '3AM UI';
+	--theme-long-name: 'gay UI';
 	--theme-version: 'v42069';
 }
 
@@ -142,7 +142,6 @@
 	transition: 150ms all ease;
 	background: rgba(255, 255, 255, 0.08);
 	margin-top: 7px;
-	box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.0);
 	border-left: 2px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -163,7 +162,6 @@
 .standardSidebarView-3F1I7i .themed-OHr7kt.item-PXvHYJ:hover,
 .standardSidebarView-3F1I7i #bd-settings-sidebar .ui-tab-bar-item:hover {
 	background-color: rgba(255, 255, 255, 0.15) !important;
-	box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.0);
 	border-left: 2px solid rgba(255, 255, 255, 0.5);
 	padding-left: 15px !important;
 }
@@ -186,7 +184,7 @@
 
 a {
 	color: var(--accent);
-	text-shadow: 0 0 12px;
+	text-shadow: 0 0 0px;
 }
 
 .standardSidebarView-3F1I7i *::-webkit-scrollbar-thumb {
@@ -551,7 +549,6 @@ a {
 
 .bf-toolbar:before {
 	background: var(--lv1);
-	box-shadow: inset 0 0 1000px rgba(255, 255, 255, 0.07);
 	border-radius: 0;
 }
 
@@ -588,11 +585,11 @@ a {
 
 ::-webkit-scrollbar {
 	border: none !important;
-	width: 6px !important;
+	width: 7px !important;
 }
 
 ::-webkit-scrollbar-track {
-	background: transparent;
+	background: rgba(5, 5, 8, 0.3);
 	border: none !important;
 }
 
