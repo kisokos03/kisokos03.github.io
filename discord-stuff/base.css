@@ -30,8 +30,8 @@
 
 .appMount-3lHmkl {
 	--theme-name: 'Midnight';
-	--theme-long-name: 'Midnight UI';
-	--theme-version: 'v1.9.5';
+	--theme-long-name: 'GAYnight UI';
+	--theme-version: 'v42069';
 }
 
 .theme-dark,
@@ -481,8 +481,8 @@ a {
 .username-_4ZSMR {
 	border-left: 3px solid currentColor;
 	padding-left: 7px;
-	text-shadow: 0 0 12px currentColor;
-	box-shadow: inset 10px 0px 15px -12px currentColor;
+	text-shadow: 0 0 10px currentColor;
+	box-shadow: 0 0 10px currentColor;
 }
 
 .containerCozy-jafyvG {
@@ -501,7 +501,8 @@ a {
 }
 
 .messages-3amgkR {
-	padding-bottom: 25px;
+	padding-bottom: 20px;
+	/* margin-left: 40px; */
 }
 
 .messageCozy-2JPAPA:last-of-type:not(:only-of-type) {
@@ -659,7 +660,7 @@ a {
 	background: var(--lv1);
 	box-shadow: inset 0 0 1000px rgba(255, 255, 255, 0.07);
 	padding-left: 117px;
-	padding-right: 118px;
+	padding-right: 110px;
 	font-weight: 600;
 	height: 38px;
 	line-height: 38px;
@@ -667,10 +668,12 @@ a {
 	position: absolute;
 	color: #fff;
 	z-index: 1;
+	/* width: 1300px; */
 }
 
 .privateChannels-1nO12o .scroller-2FKFPG {
-	margin-top: 40px;
+	/* width: 2000px; */
+	/* margin-top: 40px; */
 }
 
 .container-PNkimc {
@@ -849,8 +852,8 @@ a {
 }
 
 .botTagRegular-2HEhHi {
-	border-radius: 0;
-	box-shadow: 0 0 12px 1px var(--accent);
+	border-radius: 4px;
+	box-shadow: 0 0 15px 0px var(--accent);
 	background: var(--accent);
 }
 
@@ -900,7 +903,7 @@ a {
 }
 
 .typing-2GQL18 .ellipsis-19qdx6 {
-	height: 31px
+	height: 30px
 }
 
 .channel-2QD9_O a {
@@ -910,7 +913,7 @@ a {
 .channel-2QD9_O.selected-aXhQR6 {
 	background-color: var(--accent) !important;
 	border-radius: 0px;
-	margin-top: 7px;
+	margin-top: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	box-shadow: 0 0 12px 1px var(--accent);
@@ -920,19 +923,21 @@ a {
 
 .channel-2QD9_O {
 	border-radius: 0px;
-	transition: 150ms all ease;
+	transition: 170ms all cubic-bezier(1, -0.01, 0, 2.76);
 	background: rgba(255, 255, 255, 0.08);
-	margin: 10px;
-	margin-right: 2px;
-	box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.08);
-	border-left: 2px solid rgba(255, 255, 255, 0.1);
+	margin: 0px;
+	margin-right: 0px;
+	/*box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.08); */
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-left: 3px solid rgba(255, 255, 255, 0.1);
 }
 
 .channel-2QD9_O:not(.selected-aXhQR6):hover {
 	background-color: rgba(255, 255, 255, 0.15) !important;
-	box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.15);
-	border-left: 2px solid rgba(255, 255, 255, 0.5);
-	padding-left: 5px !important;
+	box-shadow: none/*0 0 2px 2px rgba(255, 255, 255, 0.15)*/;
+	border-left: 3px solid rgba(255, 255, 255, 0.5);
+	padding-left: 120px !important;
 }
 
 #app-mount .channel-2QD9_O[href="/store"],
@@ -1073,8 +1078,8 @@ a {
 }
 
 .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarInner-1_Tg2R {
-	position: absolute;
-	width: 100%;
+	position:fixed
+	width:
 	height: 100%;
 	z-index: 10000;
 }
@@ -6335,8 +6340,8 @@ span:not(.spinner-2enMB9) {
 	}
 }
 
-.privateChannels-1nO12o .scroller-2FKFPG {
-	margin-top: 40px;
+.privateChannels-1nO12o {
+	/* right: 40px; */
 }
 
 li[data-name*="Midnight"] .bda-name {
@@ -7581,11 +7586,6 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 
 /*why the fuck is it doing this i dont feel like finding the source so ill just do this*/
 
-.username-_4ZSMR {
-  padding-top:4px;
-  padding-bottom:4px;
-  display: inline-block;
-}
 
 .timestampCozy-2hLAPV {
   margin-bottom:2px;
@@ -7940,7 +7940,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .headerStreaming-2FjmGz {background: #593695!important;}
 .layout-2DM8Md {height: 28px;}
 .sidebar-2K8pFh {width: 265px;}
-.base-3dtUhz {left: 55px;}
+.base-3dtUhz {left: 50px;}
 .base-3dtUhz, .sidebar-2K8pFh,
 .platform-win .sidebar-2K8pFh {overflow: visible!important;}
 
