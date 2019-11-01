@@ -1,5 +1,5 @@
 /*Midnight Basecode*/
-
+/*mumgaylol*/
 @import url('https://tropix126.github.io/BetterDiscordStuff/midnight/css/segoe.css');
 @import url('https://bdsources.github.io/sourcecheck/blob/master/code.css');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
@@ -481,7 +481,7 @@ a {
 .username-_4ZSMR {
 	border-left: 3px solid currentColor;
 	padding-left: 7px;
-	text-shadow: 0 0 10px currentColor;
+	text-shadow: 0 0 6px currentColor;
 	box-shadow: 0 0 10px currentColor;
 }
 
@@ -656,11 +656,11 @@ a {
 }
 
 .privateChannels-1nO12o:after {
-	content: 'Home';
+	content: 'Home-osexuality';
 	background: var(--lv1);
 	box-shadow: inset 0 0 1000px rgba(255, 255, 255, 0.07);
-	padding-left: 117px;
-	padding-right: 110px;
+	padding-left: 122px;
+	padding-right: 72px;
 	font-weight: 600;
 	height: 38px;
 	line-height: 38px;
@@ -853,7 +853,7 @@ a {
 
 .botTagRegular-2HEhHi {
 	border-radius: 4px;
-	box-shadow: 0 0 15px 0px var(--accent);
+	box-shadow: 0 0 6px 0px var(--accent);
 	background: var(--accent);
 }
 
@@ -916,9 +916,9 @@ a {
 	margin-top: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	box-shadow: 0 0 12px 1px var(--accent);
-	border-left: 2px solid rgba(255, 255, 255, 0.8);
-	text-shadow: 0 0 12px;
+	box-shadow: 0 0 8px 0px var(--accent);
+	border-left: 4px solid rgba(255, 255, 255, 0.8);
+	text-shadow: 0 0 7px !important;
 }
 
 .channel-2QD9_O {
@@ -1010,11 +1010,11 @@ a {
 }
 
 #app-mount .channel-2QD9_O {
-  text-shadow:none !important;
+  text-shadow: none;
 }
 
 #app-mount .channel-2QD9_O {
-  max-width:235px;
+  max-width: 500px;
   margin-left:15px !important;
 }
 
@@ -1873,7 +1873,7 @@ a {
 
 .membersWrap-2h-GB4,
 .scroller-2FKFPG {
-	width: 265px !important;
+	width: 360px !important;
 	max-width: unset;
 }
 
@@ -6138,8 +6138,11 @@ body #ace_settingsmenu {
 }
 
 .containerCompact-3V0ioj {
-	margin: 8px 18px;
-	padding: 6px 0;
+	margin-left: 8px;
+	padding-left: 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 4px;
 }
 
 html,
@@ -7520,8 +7523,8 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 }
 
 .container-3baos1 {
-	width: 310px;
-	margin-left: -55px !important;
+	width: 344px;
+	margin-left: -50px !important;
 	background: var(--lv1) !important;
 	box-shadow: inset 0 0 10000px rgba(255, 255, 255, 0.08) !important;
 	position: absolute;
@@ -7939,7 +7942,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 }
 .headerStreaming-2FjmGz {background: #593695!important;}
 .layout-2DM8Md {height: 28px;}
-.sidebar-2K8pFh {width: 265px;}
+.sidebar-2K8pFh {width: 320px;}
 .base-3dtUhz {left: 50px;}
 .base-3dtUhz, .sidebar-2K8pFh,
 .platform-win .sidebar-2K8pFh {overflow: visible!important;}
@@ -7985,13 +7988,13 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 }
 .wrapper-3t9DeA foreignObject+rect[mask*="svg-mask-status"],
 .wrapper-3t9DeA[class*="avatar"] foreignObject+rect[y="22"] {
-  x: 1 !important;
-  y: 1 !important;
-  rx: var(--roundness) !important;
+  x: 10 !important;
+  y: 5 !important;
+  rx: 12 !important;
   mask: none !important;
   -webkit-mask: none !important;
   fill-opacity: -.1 !important;
-  stroke-width: 2px;
+  stroke-width: 4px;
   transition: stroke 200ms ease-in-out;
 }
 
