@@ -1,5 +1,5 @@
 /*Midnight Basecode*/
-/*mumgaylol*/
+/*death to all jews*/
 @import url('https://tropix126.github.io/BetterDiscordStuff/midnight/css/segoe.css');
 @import url('https://bdsources.github.io/sourcecheck/blob/master/code.css');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
@@ -481,7 +481,7 @@ a {
 .username-_4ZSMR {
 	border-left: 3px solid currentColor;
 	padding-left: 7px;
-	text-shadow: 0 0 6px currentColor;
+	text-shadow: 0 0 4px rgba(255, 255, 255, 0.7);
 	box-shadow: 0 0 10px currentColor;
 }
 
@@ -853,7 +853,7 @@ a {
 
 .botTagRegular-2HEhHi {
 	border-radius: 4px;
-	box-shadow: 0 0 6px 0px var(--accent);
+	box-shadow: 0 0 4px 0px var(--accent);
 	background: var(--accent);
 }
 
