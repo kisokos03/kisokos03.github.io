@@ -869,7 +869,7 @@ a {
 
 .botTagRegular-2HEhHi {
 	border-radius: 4px;
-	box-shadow: 0 0 8px 0px var(--hover);
+	box-shadow: 0 0 10px 1px var(--hover);
 	background: var(--accent);
 }
 
@@ -5516,8 +5516,12 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .akaBadge-1M-1Gw {
-	border-radius: 0;
+	border-radius: 2px;
 	background: var(--accent) !important;
+	font-size: 10px;
+	width: 34px;
+	padding: 0px !important;
+	margin: 4px;
 }
 
 .guildSeparator-3s64Iy {
@@ -7523,8 +7527,8 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 }
 
 .container-1giJp5 {
-	background: var(--lv1) !important;
-	box-shadow: inset 0 0 10000px rgba(255, 255, 255, 0.01) !important;
+	background: rgba(255,255,255,0.06);
+	/* box-shadow: inset 0 0 10000px rgba(255, 255, 255, 0.01) !important; */
 }
 
 .container-1giJp5 {
