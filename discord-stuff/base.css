@@ -7998,7 +7998,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .sidebar-2K8pFh {width: 320px;border: none !important;/* margin-left: 100px; */}
 .base-3dtUhz {left: 55px;}
 .base-3dtUhz, .sidebar-2K8pFh,
-.platform-win .sidebar-2K8pFh {overflow: visible !important;}
+.platform-win .sidebar-2K8pFh {overflow: visible !important;background: transparent !important;}
 
 .typing-2GQL18 .ellipsis-19qdx6 {
   margin-top:22px;
