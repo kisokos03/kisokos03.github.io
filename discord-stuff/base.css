@@ -140,8 +140,9 @@
 	transition: 150ms all ease;
 	background: rgba(255, 255, 255, 0.08);
 	margin-top: 7px;
-	box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.08);
-	border-left: 2px solid rgba(255, 255, 255, 0.1);
+	/* box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.08); */
+	border-left: 3px solid rgba(255, 255, 255, 0.1);
+	height: 45px;
 }
 
 .sidebarRegionScroller-3MXcoP,
@@ -161,7 +162,7 @@
 .standardSidebarView-3F1I7i .themed-OHr7kt.item-PXvHYJ:hover,
 .standardSidebarView-3F1I7i #bd-settings-sidebar .ui-tab-bar-item:hover {
 	background-color: rgba(255, 255, 255, 0.15) !important;
-	/* box-shadow: 0 0 0px 0px rgba(255, 255, 255, 0.15); */
+	box-shadow: 0 0 0px 0px rgba(255, 255, 255, 0.15);
 	border-left: 2px solid rgba(255, 255, 255, 0.5);
 	padding-left: 15px !important;
 }
@@ -441,23 +442,23 @@ a {
 }
 
 .wrapper-3WhCwL {
-/* 	color: rgb(255, 224, 248) !important;
+	/* 	color: rgb(255, 224, 248) !important;
 	padding: 0;
 	transition: 150ms ease all;
 	background-color: var(--accent) !important;
 	font-size: 13px; */
 	font-size: .9em;
-    font-weight: 500;
-    height: 1.28em;
-    padding: .072rem .275rem;
-    margin-top: .075em;
-    border-radius: 3px;
+	font-weight: 500;
+	height: 1.28em;
+	padding: .072rem .275rem;
+	margin-top: .075em;
+	border-radius: 3px;
 	text-transform: lowercase;
-    vertical-align: baseline;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    line-height: 1.3;
-}
+	vertical-align: baseline;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	line-height: 1.3;
+	}
 
 #app-mount .wrapper-3WhCwL:hover {
 	background: var(--hover) !important;
@@ -810,18 +811,18 @@ a {
 
 .content-3at_AU {
 	border-radius: 0px;
-	transition: 150ms all ease;
+	transition: 50ms all ease;
 	background: rgba(255, 255, 255, 0.08);
-	margin-top: 7px;
 	padding-bottom: 0;
-	height: 27px;
+	height: 36px;
 	margin-left: 5px;
 	margin-right: 5px !important;
-	box-shadow: 0 0 0px 3px rgba(255, 255, 255, 0.08);
+	/* box-shadow: 0 0 0px 3px rgba(255, 255, 255, 0.08); */
 	border-left: 2px solid rgba(255, 255, 255, 0.1);
+	margin-top: 11px;
 }
 
-.wrapper-1ucjTd:hover .content-3at_AU {
+.wrapper-1ucjTd:hover:not(.modeSelected-1zApJ_)  .content-3at_AU {
 	background-color: rgba(255, 255, 255, 0.15) !important;
 	box-shadow: 0 0 0px 3px rgba(255, 255, 255, 0.15);
 	border-left: 2px solid rgba(255, 255, 255, 0.5);
@@ -830,11 +831,14 @@ a {
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
 	background-color: var(--accent) !important;
 	border-radius: 0px;
-	box-shadow: 0 0 2px 2px var(--accent);
-	transition: 150ms all ease;
+	/* box-shadow: 0 0 2px 2px var(--accent); */
+	transition: 50ms all ease;
 	border-left: 2px solid rgba(255, 255, 255, 0.8);
 }
+.wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
+	box-shadow: 0 0 0px 2px var(--accent);
 
+}
 @keyframes unread {
 	0% {
 		box-shadow: 0 0 10px 1px var(--hover);
@@ -940,7 +944,7 @@ a {
 
 .channel-2QD9_O {
 	border-radius: 0px;
-	transition: 170ms all cubic-bezier(1, -0.01, 0, 2.76);
+	transition: 70ms all cubic-bezier(0.74, 0.07, 0.25, 0.99);
 	background: rgba(255, 255, 255, 0.08);
 	margin: 0px;
 	margin-right: 0px;
@@ -1033,7 +1037,7 @@ a {
 
 #app-mount .channel-2QD9_O {
   max-width: 500px;
-  margin-left:15px !important;
+  margin-left: 0px !important;
 }
 
 #app-mount .channel-2QD9_O[href="/store"] .layout-2DM8Md .name-uJV0GL,
@@ -1056,7 +1060,7 @@ a {
 	transform: translate(50%, 50%) scale(0.2);
 	width: 200px;
 	height: 200px;
-	box-shadow: 0px 0px 24px 3px var(--accent) !important;
+	box-shadow: 0px 0px 115px -11px var(--accent) !important;
 	background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0MxNS40MSAxMi41OSAxNiAxMS4xMSAxNiA5LjUgMTYgNS45MSAxMy4wOSAzIDkuNSAzUzMgNS45MSAzIDkuNSA1LjkxIDE2IDkuNSAxNmMxLjYxIDAgMy4wOS0uNTkgNC4yMy0xLjU3bC4yNy4yOHYuNzlsNSA0Ljk5TDIwLjQ5IDE5bC00Ljk5LTV6bS02IDBDNy4wMSAxNCA1IDExLjk5IDUgOS41UzcuMDEgNSA5LjUgNSAxNCA3LjAxIDE0IDkuNSAxMS45OSAxNCA5LjUgMTR6Ii8+ICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=");
 	background-color: var(--accent);
 	background-position: 50%;
@@ -1085,6 +1089,7 @@ a {
 
 .privateChannels-1nO12o .searchBar-6Kv8R2:hover {
 	background-color: var(--hover) !important;
+	box-shadow: var(--hover) !important;
 }
 
 .privateChannels-1nO12o .searchBar-6Kv8R2 {
@@ -1571,12 +1576,13 @@ a {
 }
 
 .menu-Sp6bN1:not(.alt-3btY0e) .item-1GzJrl {
-	width: 80px;
-	height: 51px;
+	width: fit-content;
+	height: 40px;
 	justify-content: center;
-	transition: 150ms ease all;
-	border-radius:0;
+	transition: 50ms ease all;
+	border-radius: 3px;
 	margin:0;
+	top: 2px;
 }
 .iconContainer-2ZxvJk {
   margin:0;
@@ -1584,12 +1590,17 @@ a {
 
 .itemBase-1Qj4z6{
 	padding-left: 10px;
-	padding-right: 10px
+	padding-right: 10px;
+	position: relative;
+	/* top: 4px; */
+	height: 40px;
 }
 
 .helper-2c73HK {
-	color: transparent;
-	font-size: 0px;
+	
+color: transparent;
+	
+font-size: 0px;
 }
 
 
@@ -1633,7 +1644,7 @@ a {
 	border:2px solid var(--hover);
 	}
 
-.customStatusContentIcon-2sionu {margin-left: 0px;width: 104px;padding-bottom: 13px;}
+.customStatusContentIcon-2sionu {margin-left: 6px;width: fit-content;/* padding-bottom: 13px; */}
 
 .name-3YKhmS {
   font-weight:500;
@@ -1905,6 +1916,7 @@ a {
 .scroller-2FKFPG {
 	width: 360px !important;
 	max-width: unset;
+	/* left: 19px; */
 }
 
 .mobileIndicator-329Gd6 {
@@ -3097,8 +3109,8 @@ polyline[stroke*="#7289da"] {
 .container-3cGP6G,
 .container-2x5lvQ {
 	border-radius: 0 !important;
-	background: var(--lv1) !important;
-	box-shadow: inset 0 0 1000px rgba(255, 255, 255, 0.06), 0 0 12px #000 !important;
+	background: var(--lv1);
+	/* box-shadow: inset 0 0 1000px rgba(255, 255, 255, 0.06), 0 0 12px #000 !important; */
 	animation: context-open-new 300ms cubic-bezier(0, 0, 0, 1);
 	transform-origin: top;
 }
@@ -3123,6 +3135,7 @@ polyline[stroke*="#7289da"] {
 
 .itemGroup-1tL0uz {
 	border: none;
+	background: rgba(255,255,255,0.05);
 }
 
 .item-1Yvehc.brand-3igrJY,
@@ -5437,7 +5450,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	margin-top: 5px;
 	height: 42px;
 	border-bottom: 2px solid var(--hover);
-	width: 55px;
+	width: 62px;
 }
 
 .homeIcon-tEMBK1 {
@@ -5540,7 +5553,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	top: 0;
 	left: 4px;
 	width: 2px;
-	height: 27px;
+	height: 36px;
 	border-radius: 0;
 	transition: 150ms ease opacity;
 }
@@ -6178,7 +6191,8 @@ body #ace_settingsmenu {
 	padding-left: 6px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-radius: 4px;
+	border-radius: 0px;
+	box-shadow: 0 0 12px -4px rgba(255,255,255,0.15);
 }
 
 html,
@@ -6380,7 +6394,8 @@ span:not(.spinner-2enMB9) {
 }
 
 .privateChannels-1nO12o {
-	/* right: 40px; */
+	left: 6px;
+	padding-left: 0px !important;
 }
 
 li[data-name*="Midnight"] .bda-name {
@@ -7961,11 +7976,11 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
  ============================= */
 .sidebarRegionScroller-3MXcoP,
 .messages-3amgkR,
-.scroller-2TZvBN,
+/* .scroller-2TZvBN, */
 .scroller-1JbKMe,
 .scroller-1IIF0A,
 .scroller-9moviB,
-.sidebar-2K8pFh,
+/* .sidebar-2K8pFh, */
 .childWrapper-anI2G9,
 .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6,
 .friendsTable-133bsv .friendsTableBody-1ZhKif,
@@ -7980,10 +7995,10 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 }
 .headerStreaming-2FjmGz {background: #593695!important;}
 .layout-2DM8Md {height: 28px;}
-.sidebar-2K8pFh {width: 320px;}
-.base-3dtUhz {left: 50px;}
+.sidebar-2K8pFh {width: 320px;border: none !important;}
+.base-3dtUhz {left: 55px;}
 .base-3dtUhz, .sidebar-2K8pFh,
-.platform-win .sidebar-2K8pFh {overflow: visible!important;}
+.platform-win .sidebar-2K8pFh {overflow: visible !important;}
 
 .typing-2GQL18 .ellipsis-19qdx6 {
   margin-top:22px;
@@ -8214,6 +8229,8 @@ height:58px;
 .sidebar-2K8pFh .scrollerWrap-2lJEkd {
     margin-bottom: 4px;
     margin-top: 4px;
+    background-color: var(--lv1);
+    left: 5px;
 }
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq, .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 {
     border-radius:0 !important;
