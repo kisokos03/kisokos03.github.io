@@ -873,7 +873,7 @@ a {
 
 .botTagRegular-2HEhHi {
 	border-radius: 4px;
-	box-shadow: 0 0 10px 1px var(--hover);
+	box-shadow: 0 0 15px -2px var(--hover);
 	background: var(--accent);
 }
 
@@ -1234,7 +1234,7 @@ a {
 	margin-top: 40px;
 	background-color: var(--lv1) !important;
 	overflow: visible;
-	width: 55px;
+	width: 80px;
 }
 
 .wrapper-2lTRaf {
@@ -7995,7 +7995,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 }
 .headerStreaming-2FjmGz {background: #593695!important;}
 .layout-2DM8Md {height: 28px;}
-.sidebar-2K8pFh {width: 320px;border: none !important;}
+.sidebar-2K8pFh {width: 320px;border: none !important;/* margin-left: 100px; */}
 .base-3dtUhz {left: 55px;}
 .base-3dtUhz, .sidebar-2K8pFh,
 .platform-win .sidebar-2K8pFh {overflow: visible !important;}
