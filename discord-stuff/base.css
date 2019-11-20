@@ -1,5 +1,5 @@
-/*Midnight Basecode*/
-/*death to all jews*/
+/*Twilight Basecode*/
+/*adaptation of MidnightUI by tropix126*/
 @import url('https://tropix126.github.io/BetterDiscordStuff/midnight/css/segoe.css');
 @import url('https://bdsources.github.io/sourcecheck/blob/master/code.css');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
@@ -29,9 +29,9 @@
 }
 
 .appMount-3lHmkl {
-	--theme-name: 'Midnight';
-	--theme-long-name: 'GAYnight UI';
-	--theme-version: 'v42069';
+	--theme-name: 'Twilight';
+	--theme-long-name: 'TwilightUI';
+	--theme-version: 'v~1.0';
 }
 
 .theme-dark,
@@ -71,11 +71,12 @@
 .standardSidebarView-3F1I7i .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item.selected {
 	background-color: var(--accent) !important;
 	border-radius: 0px;
-	margin-top: 7px;
-	padding: 15px !important;
-	box-shadow: 0 0 2px 1px var(--accent);
+	margin-top: 2px;
+	padding: 14px !important;
+	box-shadow: 0 0 30px -12px var(--accent);
 	transition: 150ms all ease;
 	border-left: 2px solid rgba(255, 255, 255, 0.8);
+	margin-bottom: 6px;
 }
 
 #app-mount .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218);"] {
@@ -136,13 +137,15 @@
 .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ,
 #bd-settings-sidebar .ui-tab-bar-item {
 	border-radius: 0px;
-	padding: 9px !important;
+	/* padding: 0px !important; */
 	transition: 150ms all ease;
 	background: rgba(255, 255, 255, 0.08);
-	margin-top: 7px;
+	/* margin-top: 7px; */
 	/* box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.08); */
 	border-left: 3px solid rgba(255, 255, 255, 0.1);
 	height: 45px;
+	padding-top: 12px;
+	padding-left: 12px;
 }
 
 .sidebarRegionScroller-3MXcoP,
@@ -162,9 +165,23 @@
 .standardSidebarView-3F1I7i .themed-OHr7kt.item-PXvHYJ:hover,
 .standardSidebarView-3F1I7i #bd-settings-sidebar .ui-tab-bar-item:hover {
 	background-color: rgba(255, 255, 255, 0.15) !important;
-	box-shadow: 0 0 0px 0px rgba(255, 255, 255, 0.15);
-	border-left: 2px solid rgba(255, 255, 255, 0.5);
-	padding-left: 15px !important;
+	box-shadow: 0 0 13px -3px rgba(255, 255, 255, 0.15) !important;
+	border-left: 4px solid rgba(255, 255, 255, 0.5) !important;
+	padding-left: 20px !important;
+}
+
+.item-PXvHYJ:hover {
+	background-color: rgba(255, 255, 255, 0.15) !important;
+	box-shadow: 0 0 13px -3px rgba(255, 255, 255, 0.15) !important;
+	border-left: 4px solid rgba(255, 255, 255, 0.5) !important;
+	padding-left: 20px !important;
+
+}
+
+.item-PXvHYJ  {
+	color: white;
+	
+
 }
 
 .side-8zPYf6 .header-2RyJ0Y,
@@ -179,7 +196,7 @@
 	margin-top: 0px !important;
 }
 
-#app-mount .side-8zPYf6 .item-PXvHYJ[style*="rgb(114, 137, 218)"] {
+#app-mount .side-8zPYf6 .item-PXvHYJ[style*="rgb(114, 137, 28)"] {
 	color: white !important;
 }
 
