@@ -9,8 +9,16 @@
 	background-color: var(--accent) !important;
 	color: #fff;
 	text-shadow: 0 0 12px #fff !important;
-}
+ }
+/* :root {
+--lv1:#0b0615 !important;
+--accent:#6560a7 !important;
+--hover:#4f2869 !important;
+--bg:#000000 !important;
+--lvl-bg-fade:0 !important;
+--lvl-bg-opacity: 50% !important;
 
+} */
 .theme-dark {
     --background-primary: var(--lv1);
     --background-secondary: var(--lv1);
@@ -515,7 +523,7 @@ a {
 .username-_4ZSMR {
 	border-left: 3px solid currentColor;
 	padding-left: 7px;
-	text-shadow: 0 0 1px white;
+	/* text-shadow: 0 0 1px white; */
 	box-shadow: none;
 }
 
@@ -657,7 +665,7 @@ a {
 	border-radius: 0 !important;
 	text-shadow: 0 0 12px;
 	background: rgba(255, 255, 255, 0.1) !important;
-	box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.1) !important;
+	box-shadow: 0 0 18px -3px rgba(255, 255, 255, 0.1) !important;
 	border: none !important;
 	text-transform: none;
 	margin-top: 25px;
@@ -893,8 +901,10 @@ a {
 
 .botTagRegular-2HEhHi {
 	border-radius: 4px;
-	box-shadow: 0 0 15px -2px var(--hover) !important;
+	box-shadow: 0 0 20px -8px rgba(0,0,0,1) !important;
 	background: var(--accent) !important;
+	overflow: hidden;
+	border: solid rgba(0,0,0,0.3);
 }
 
 .botTagInvert-18-95s {
@@ -6214,7 +6224,8 @@ body #ace_settingsmenu {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	border-radius: 0px;
-	box-shadow: 0 0 12px -4px rgba(255,255,255,0.15);
+	/* box-shadow: 0 0 60px -20px rgba(255,255,255,0.15); */
+	position: relative;
 }
 
 html,
