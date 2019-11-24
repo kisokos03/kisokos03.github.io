@@ -10,10 +10,10 @@
 	color: #fff;
 	text-shadow: 0 0 12px #fff !important;
  }
-/* :root {
+ :root {
 --lv1:#0b0615 !important;
 --accent:#6560a7 !important;
---hover:#4f2869 !important;
+--hover:#5f5c88 !important;
 --bg:#000000 !important;
 --lvl-bg-fade:0 !important;
 --lvl-bg-opacity: 50% !important;
@@ -986,8 +986,8 @@ a {
 
 .channel-2QD9_O:not(.selected-aXhQR6):hover {
 /* 	background-color: rgba(255, 255, 255, 0.15) !important; */
-	background-color: var(--hover);
-	box-shadow: 0 0 20px -4px var(--hover);
+/* 	background-color: var(--hover); */
+	box-shadow: 0 0 200px -60px var(--hover) inset;
 	border-left: 3px solid rgba(255, 255, 255, 0.5);
 	padding-left: 5px !important;
 }
