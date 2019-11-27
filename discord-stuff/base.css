@@ -10,10 +10,12 @@
 	color: #fff;
 	text-shadow: 0 0 12px #fff !important;
  }
+
+
 /* :root {
 --lv1:#0b0615 !important;
---accent:#6560a7 !important;
---hover:#5f5c88 !important;
+--hover:#3f4a77 !important;
+--accent:#6871a1 !important;
 --bg:#000000 !important;
 --lvl-bg-fade:0 !important;
 --lvl-bg-opacity: 50% !important;
@@ -60,6 +62,10 @@
 
 
 /*Begin Base CSS*/
+
+#charcounter {
+    bottom: 49px !important;
+}
 
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
@@ -532,7 +538,7 @@ a {
 	margin-left: 25px;
 	margin-right: 25px;
 	padding-bottom: 25px;
-	padding-top: 0;
+	padding-top: 0px;
 	background: rgba(255, 255, 255, 0.08);
 	border-left: 2px solid rgba(255, 255, 255, 0.08);
 }
@@ -986,8 +992,8 @@ a {
 
 .channel-2QD9_O:not(.selected-aXhQR6):hover {
 /* 	background-color: rgba(255, 255, 255, 0.15) !important; */
-/* 	background-color: var(--hover); */
-	box-shadow: 0 0 200px -60px var(--hover) inset;
+	background-color: var(--hover);
+/* 	box-shadow: 0 0 700px -90px var(--hover) inset; */
 	border-left: 3px solid rgba(255, 255, 255, 0.5);
 	padding-left: 5px !important;
 }
@@ -1396,6 +1402,7 @@ a {
 
 .scrollerWrap-2lJEkd {
 	contain: layout style;
+	background: var(--lv1);
 }
 
 .homeButton-2Cw51C {
@@ -1948,6 +1955,7 @@ font-size: 0px;
 	/* width: 320px !important; */
 	max-width: unset;
 	/* left: 19px; */
+	background: var(--lv1);
 }
 
 .mobileIndicator-329Gd6 {
@@ -6225,7 +6233,6 @@ body #ace_settingsmenu {
 	padding-bottom: 5px;
 	border-radius: 0px;
 	/* box-shadow: 0 0 60px -20px rgba(255,255,255,0.15); */
-	position: relative;
 }
 
 html,
@@ -7578,11 +7585,15 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	background: rgba(255,255,255,0.07);
 	/* box-shadow: inset 0 0 10000px rgba(255, 255, 255, 0.01) !important; */
 }
+.panels-j1Uci_ {
+	background: var(--lv1) !important;
+	position: relative;
+}
 .panel-24C3ux {
 	background: rgba(255,255,255,0.07);
 	padding: 8px !important;
 	border-bottom: none !important;
-	margin-left: 11px;
+	margin-left: 6px;
 	border-left: 3px solid rgba(255,255,255,0.2);
 }
 
@@ -7590,7 +7601,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	margin-bottom: 51px;
 	/* border-bottom: 2px solid var(--accent); */
 	border-left: solid 3px rgba(255,255,255,0.2);
-	margin-left: 11px;
+	margin-left: 6px;
 	border-bottom: none !important;
 }
 
@@ -7617,7 +7628,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 }
 
 .container-3baos1 {
-	width: 358px;
+	width: 352px;
 	margin-left: -49px !important;
 	background: var(--lv1) !important;
 	box-shadow: inset 0 0 10000px rgba(255, 255, 255, 0.08) !important;
@@ -7625,6 +7636,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	z-index: 1000;
 	bottom: -2px !important;
 	/* border: 10px black; */
+	padding-right: 9px;
 }
 
 .container-3baos1 .button-2b6hmh {
@@ -7825,6 +7837,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 
 .header-2o-2hj {
 	overflow: hidden;
+	width: 103%;
 }
 
 .search-36MZv- {
@@ -8040,7 +8053,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .sidebar-2K8pFh {width: 320px;border: none !important;/* margin-left: 100px; */}
 .base-3dtUhz {left: 55px;}
 .base-3dtUhz, .sidebar-2K8pFh,
-.platform-win .sidebar-2K8pFh {overflow: visible !important;background: transparent !important;}
+.platform-win .sidebar-2K8pFh {overflow: visible !important;background: transparent !important;left: 60px;}
 
 .typing-2GQL18 .ellipsis-19qdx6 {
   margin-top:22px;
