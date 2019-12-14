@@ -1,0 +1,5 @@
+::selection {
+	background-color: var(--accent) !important;
+	color: #fff;
+	text-shadow: 0 0 12px #fff !important;
+ }
