@@ -7,10 +7,14 @@
 
 /*   COLOURS  /  VARIABLES  */
 :root {
-    --accent: #afafaf !important; 
+    --accent: #afafaf; 
     --roundness: 0px;
+    --hover:
 }
-/* CHAT  */ /*  DMs SIDEBAR  */ 
+/* CHAT  */ 
+
+
+    /*  DMs SIDEBAR  */ 
 
 .channel-2QD9_O {
     -webkit-box-sizing: border-box;
@@ -19,22 +23,41 @@
     padding: 1px 0;
     border-radius: var(--roundness);
     -webkit-transition:70ms;
-    color: var(--accent);
+    color: #ababab;
     transition: 70ms;
     width: 300px;
     margin-left: 0px;
     border-left: 2px solid;
 }
 
-.channel-2QD9_O[href="/activity"], .channel-2QD9_O[href="/library"] {
+.channel-2QD9_O[href="/activity"], .channel-2QD9_O[href="/library"],  
+.channel-2QD9_O[href="/store"], .channel-2QD9_O[href="/channels/@me"]{
     background-color:white;
-    color:black
-    
-
-
+    color:black;
+    box-sizing: border-box;
+    display: table-cell;
+    margin: 0px;
 }
 
 
-.container-2Pjhx-:hover {
-    background-color: #868686;
+.channel-2QD9_O[href="/activity"] .name-uJV0GL, .channel-2QD9_O[href="/library"] .name-uJV0GL, 
+.channel-2QD9_O[href="/store"] .name-uJV0GL, .channel-2QD9_O[href="/channels/@me"] .name-uJV0GL{
+    font-size: 0px;
+    padding:0px;
+    margin:0px;
+    width: 0px;
+}
+
+.channel-2QD9_O[href="/activity"] .avatar-3uk_u9, .channel-2QD9_O[href="/library"] .avatar-3uk_u9, 
+.channel-2QD9_O[href="/store"] .avatar-3uk_u9, .channel-2QD9_O[href="/channels/@me"] .avatar-3uk_u9{
+    margin:0px;
+    paddin:0px;
+}
+
+.channel-2QD9_O[href="/activity"] .layout-2DM8Md, .channel-2QD9_O[href="/library"] .layout-2DM8Md, 
+.channel-2QD9_O[href="/store"] .layout-2DM8Md, .channel-2QD9_O[href="/channels/@me"] .layout-2DM8Md{
+    margin: 0px !important;
+    /* padding: 0px; */
+    width: 40px !important;
+    padding-right: 0px !important;
 }
