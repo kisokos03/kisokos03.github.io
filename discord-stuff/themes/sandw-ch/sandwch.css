@@ -1,13 +1,13 @@
 ::selection {
-    background: rgb(218, 218, 218);
-    color: rgb(37, 37, 37);
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-shadow: 0 0 1px #6f6f6f;
     /* box-shadow: 0 0 10px 10px #d09d9d; */
 }
 
 /*   COLOURS  /  VARIABLES  */
 :root {
-    --accent: #afafaf; 
+    --accent: #ffffff !important; 
     --roundness: 0px;
     --hover:
 }
@@ -23,7 +23,7 @@
     padding: 1px 0;
     border-radius: var(--roundness);
     -webkit-transition:70ms;
-    color: #ababab;
+    color: rgba(171, 171, 171);
     transition: 70ms;
     width: 300px;
     margin-left: 0px;
@@ -32,7 +32,7 @@
 
 .channel-2QD9_O[href="/activity"], .channel-2QD9_O[href="/library"],  
 .channel-2QD9_O[href="/store"], .channel-2QD9_O[href="/channels/@me"]{
-    background-color:white;
+    background-color:var(--accent);
     color:black;
     box-sizing: border-box;
     display: table-cell;
@@ -51,13 +51,22 @@
 .channel-2QD9_O[href="/activity"] .avatar-3uk_u9, .channel-2QD9_O[href="/library"] .avatar-3uk_u9, 
 .channel-2QD9_O[href="/store"] .avatar-3uk_u9, .channel-2QD9_O[href="/channels/@me"] .avatar-3uk_u9{
     margin:0px;
-    paddin:0px;
+    padding-left: 5px;
+    /* left: 15px; */
+    display: flex;
 }
 
 .channel-2QD9_O[href="/activity"] .layout-2DM8Md, .channel-2QD9_O[href="/library"] .layout-2DM8Md, 
 .channel-2QD9_O[href="/store"] .layout-2DM8Md, .channel-2QD9_O[href="/channels/@me"] .layout-2DM8Md{
     margin: 0px !important;
     /* padding: 0px; */
-    width: 40px !important;
-    padding-right: 0px !important;
+    width: 27px !important;
+    /* padding-right: 0px !important; */
+    /* box-sizing: content-box !important; */
+}
+
+.channel-2Qd9_O .avatar-3uk_u9 {}
+
+.channel-2QD9_O[href="/activity"] .avatar-3uk_u9.da-avatar {
+     margin-right: 0px;
 }
