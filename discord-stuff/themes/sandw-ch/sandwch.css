@@ -7,9 +7,9 @@
 
 /*   COLOURS  /  VARIABLES  */
 :root {
-    --accent: #ffffff !important; 
+    --accent: #9190d2 !important;
     --roundness: 0px;
-    --hover:
+    --hover: #b377d0 !important;
 }
 /* CHAT  */ 
 
@@ -32,41 +32,47 @@
 
 .channel-2QD9_O[href="/activity"], .channel-2QD9_O[href="/library"],  
 .channel-2QD9_O[href="/store"], .channel-2QD9_O[href="/channels/@me"]{
-    background-color:var(--accent);
-    color:black;
+    background-color: transparent;
+    color: var(--accent);
     box-sizing: border-box;
-    display: table-cell;
+    display: -webkit-inline-box;
     margin: 0px;
+    width: 55px;
+    border: none;
+    left: 10px;
+    position:relative;
+    height: 40px;
+    padding: 0;
 }
-
-
 .channel-2QD9_O[href="/activity"] .name-uJV0GL, .channel-2QD9_O[href="/library"] .name-uJV0GL, 
 .channel-2QD9_O[href="/store"] .name-uJV0GL, .channel-2QD9_O[href="/channels/@me"] .name-uJV0GL{
-    font-size: 0px;
-    padding:0px;
-    margin:0px;
-    width: 0px;
+    display:none;
 }
+ 
 
+ .channel-2QD9_O[href="/activity"].content-3QAtGj.da-content {
+    display: none;
+
+}
 .channel-2QD9_O[href="/activity"] .avatar-3uk_u9, .channel-2QD9_O[href="/library"] .avatar-3uk_u9, 
 .channel-2QD9_O[href="/store"] .avatar-3uk_u9, .channel-2QD9_O[href="/channels/@me"] .avatar-3uk_u9{
-    margin:0px;
-    padding-left: 5px;
-    /* left: 15px; */
     display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .channel-2QD9_O[href="/activity"] .layout-2DM8Md, .channel-2QD9_O[href="/library"] .layout-2DM8Md, 
 .channel-2QD9_O[href="/store"] .layout-2DM8Md, .channel-2QD9_O[href="/channels/@me"] .layout-2DM8Md{
-    margin: 0px !important;
-    /* padding: 0px; */
-    width: 27px !important;
-    /* padding-right: 0px !important; */
-    /* box-sizing: content-box !important; */
-}
-
-.channel-2Qd9_O .avatar-3uk_u9 {}
-
-.channel-2QD9_O[href="/activity"] .avatar-3uk_u9.da-avatar {
-     margin-right: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 55px;
+    padding-left: 0;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
 }
