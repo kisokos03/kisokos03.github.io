@@ -9,8 +9,9 @@
 :root {
     --accent: #adb1f5 !important;
     --accent-selected: #b7bcf7;
+    --text:#cfd0f1;
     --roundness: 0px;
-    --hover: #b3b2f7 !important;
+    --hover: #aea2f5 !important;
     --hover-bg:#d4b9d524;
     --hover-selected:#d0d0f3;
     --hover-selected-bg:#c3b4d061;
@@ -28,14 +29,13 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    padding: 1px 0;
+    padding: 0px 0;
     -webkit-transition: 0ms;
-    color: rgba(171, 171, 171);
+    color: var(--text);
     transition: 0ms;
     width: 100%;
     margin-left: 0px;
-    border-left: 2px solid;
-    /* overflow-x: visible; */
+    border-left: 3px solid rgba(255, 255, 255, 0.3);
 }
 
 
@@ -136,12 +136,14 @@
 }
 
 
-.layout-2DM8Md.da-layout {
+.layout-2DM8Md {
     border-radius:var(--roundness);
-    
 }
 
 .layout-2DM8Md:hover{
     background:none;
-    color:none;
+    color:var(--hover);
+}
+.layout-2DM8Md.selected-aXhQR6:hover {
+    color:black;
 }
