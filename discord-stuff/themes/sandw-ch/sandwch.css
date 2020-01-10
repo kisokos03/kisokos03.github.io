@@ -151,60 +151,33 @@
 
 
 span.headerText-1-AnT0.da-headerText {
-    display: none;
+    color:inherit;
 }
 
 .privateChannelRecipientsInviteButtonIcon-cXLJ7f.clickable-3rdHwn.da-clickable {
-    position: fixed;
-    left: 32%;
-    top: 85%;
-    width: 40px;
-    height: 40px;
     align-items: center;
     justify-content: center;
     border-radius: 999px;
     background: var(--background-accent);
     transition: transform 200ms cubic-bezier(0.26, 0.95, 0.18, 1.52), background 200ms cubic-bezier(0, 0.86, 0.58, 1);
     z-index: 999 !important;
+    overflow: visible !important;
 }
 .privateChannelRecipientsInviteButtonIcon-cXLJ7f.clickable-3rdHwn.da-clickable:hover{
-    transform: scale(1.2);
-    background: var(--hover-bg);
+    transform: scale(1.3);
+    overflow:visible !important;
 }
-polygon {
-    align-self: center;
-    color: var(--accent);
+.privateChannelsHeaderContainer-Gcpv_s {
+    /* top: 10%; */
+    padding: 0;
+    padding-left: 10px;
+    height: fit-content;
+    margin: 10px 0 10px 0;
+    overflow: visible !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-header.header-zu8eWb.da-header.privateChannelsHeaderContainer-Gcpv_s.da-privateChannelsHeaderContainer.container-2ax-kl.da-container {
-    position: absolute;
-    top: 10%;
+.privateChannelsHeaderContainer-Gcpv_s:hover {
+    color:;
+}
+.icon-22AiRD.da-icon {
+    overflow: visible !important;
 }
