@@ -4,7 +4,9 @@
 .channel-2QD9_O[href="/store"] .name-uJV0GL, .channel-2QD9_O[href="/channels/@me"] .name-uJV0GL{
     display:none;
 }
-
+body.clickable{
+cursor:no-drop !important;
+}
 /*   COLOURS  /  VARIABLES  */
 :root {
     --accent: #adb1f5 !important;
@@ -154,16 +156,15 @@ span.headerText-1-AnT0.da-headerText {
     color:inherit;
 }
 
-.privateChannelRecipientsInviteButtonIcon-cXLJ7f.clickable-3rdHwn.da-clickable {
+.privateChannelRecipientsInviteButtonIcon-cXLJ7f{
     align-items: center;
     justify-content: center;
     border-radius: 999px;
     background: var(--background-accent);
     transition: transform 200ms cubic-bezier(0.26, 0.95, 0.18, 1.52), background 200ms cubic-bezier(0, 0.86, 0.58, 1);
-    z-index: 999 !important;
     overflow: visible !important;
 }
-.privateChannelRecipientsInviteButtonIcon-cXLJ7f.clickable-3rdHwn.da-clickable:hover{
+.privateChannelRecipientsInviteButtonIcon-cXLJ7f:hover{
     transform: scale(1.3);
     overflow:visible !important;
 }
@@ -181,3 +182,31 @@ span.headerText-1-AnT0.da-headerText {
 .icon-22AiRD.da-icon {
     overflow: visible !important;
 }
+
+.channelTextArea-rNsIhG {
+    margin: 0;
+    /* height: 80px; */
+}
+
+.scrollableContainer-2NUZem {
+    height: 46px;
+    border-radius: 0;
+}
+
+.inner-MADQqc.da-inner {
+    height: 45px;
+}
+
+.attachButton-2WznTc {
+    padding: 0;
+    margin: 10px;
+    height: fit-content;
+}
+.container-3baos1 {
+    height: 45px;
+}
+.contents-18-Yxp.attachButtonInner-PQjIyk svg{
+    height: fit-content;
+}
+
+path.attachButtonPlus-jWVFah.da-attachButtonPlus {transform: scale(0.9);}
