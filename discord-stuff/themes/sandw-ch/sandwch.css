@@ -32,16 +32,15 @@ cursor:no-drop !important;
     --hover-selected-bg:#c3b4d061;
     --selected-bg:#ffe9ff38;
     --lv1:#141923 !important;
-    --text-selected
-    --lv1-shadow: #00000066
-    --lv1-highlight:
+    --shadow: #00000066;
+    --highlight: #bfdeff42;
 }
 
  ::selection {
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     text-shadow: 0 0 1px #6f6f6f;
-    /* box-shadow: 0 0 10px 10px #d09d9d; */
+    /* box-shadow: 0 0 10px 10px #d09d9d inset; */
 }
 
     /* CHAT  */ 
@@ -253,7 +252,7 @@ img.emoji.jumboable {
 
 .messages-3amgkR {
     background: var(--lv1);
-    box-shadow: inset 0 0 0px 20000px var(--lv1-shadow);
+    box-shadow: inset 0 0 0px 9999999px var(--shadow);
 }
 
 .scroller-2wx7Hm.da-scroller {
@@ -266,10 +265,32 @@ scroller-2TZvBN.da-scroller {
 
 .scroller-2FKFPG.da-scroller.systemPad-3UxEGl.da-systemPad.scroller-2TZvBN.da-scroller {
     background-color: var(--lv1);
-    box-shadow: inset 0 0 0 1000px rgba(144, 166, 189, 0.12);
+    box-shadow: inset 0 0 0 1000px var(--highlight);
 }
 
 .da-expandedFolderBackground {
+    /* background-color: var(--lv1); */
+    /* box-shadow: inset 0 0 0 1000px rgba(255,255,255,0.2); */
+}
+
+.folderIconWrapper-226oVY, .folder-21wGz3.hover {
+    /* background-color: var(--lv1); */
+}
+
+
+
+.folderIconWrapper-226oVY.da-folderIconWrapper {
+    background: none !important;
+}
+
+.folder-21wGz3.hover-2ji_A7 {
+    box-shadow:0 0 9999px 999px inset var(--shadow);
+    background-color:var(--lv1);
+     
+}
+
+
+.folder-21wGz3 {
     background-color: var(--lv1);
-    box-shadow: inset 0 0 0 1000px rgba(255,255,255,0.2);
+    transition: 200ms;
 }
